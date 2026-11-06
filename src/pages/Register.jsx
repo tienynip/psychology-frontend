@@ -41,7 +41,7 @@ function Register() {
       setSuccess("Đăng ký tài khoản thành công!");
       console.log("Đăng ký thành công:", response.data);
       setTimeout(() => {
-        navigate("/home");
+        navigate("/login");
       }, 300);
     } catch (err) {
       if (err.response?.status === 409) {
