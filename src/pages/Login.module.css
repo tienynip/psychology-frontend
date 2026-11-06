@@ -1,0 +1,107 @@
+/* Login  */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+
+.loginCard {
+  width: 100%;
+  max-width: 420px;
+  padding: 32px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.loginCard h2 {
+  margin: 0 0 8px;
+  text-align: center;
+  font-size: 28px;
+  color: #2D3748;
+  margin-bottom: 30px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.formGroup input:focus {
+  outline: none;
+  border-color: #FFB6C1;
+}
+
+.loginCard {
+  background-color: white;
+}
+
+.loginCard button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #FFB6C1;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.loginCard button:hover {
+  background-color: #FFB6C1;
+}
+
+.backToRegister {
+  margin-top: 22px;
+  text-align: center;
+  font-size: 14px;
+  color: #718096;
+}
+
+.backToRegister a {
+  margin-left: 4px;
+  color: #c45f83;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.backToRegister a:hover {
+  text-decoration: underline;
+}
+
+.errorMessage {
+  margin-bottom: 15px;
+  color: #e53e3e;
+  font-size: 14px;
+}
+
+.successMessage {
+  margin-bottom: 15px;
+  color: #38a169;
+  font-size: 14px;
+}
+
+
+
+
+
+

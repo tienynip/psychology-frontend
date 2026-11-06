@@ -1,0 +1,40 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 66px;
+    padding: 0 28px;
+    background: #ffffff;
+    border-bottom: 1px solid #f0edf0;
+    box-sizing: border-box;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.iconButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #475569;
+    cursor: pointer;
+}
+
+.iconButton:hover {
+    background: #fff0f5;
+    color: #f03278;
+}
+
+@media (max-width: 767.98px) {
+    .header {
+        display: none;
+    }
+}

@@ -1,0 +1,78 @@
+.warningBox {
+  background-color: #FCEEF3;
+  border: 1px solid #E98DAA;
+  color: #333333;
+}
+
+/* ===== Mobile: phong cách app Claude (< 768px) ===== */
+@media (max-width: 767.98px) {
+  .page {
+    padding: 8px 20px 40px !important;
+  }
+
+  /* Tiêu đề trang: căn trái, nhẹ nhàng */
+  .page header {
+    margin-bottom: 20px !important;
+    text-align: left !important;
+  }
+
+  .page header h2 {
+    margin-bottom: 0 !important;
+    font-size: 26px !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.4px;
+    color: #302831;
+  }
+
+  /* Mỗi mục */
+  .page section {
+    margin-bottom: 28px !important;
+  }
+
+  .page section h5 {
+    margin-bottom: 10px !important;
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    color: #302831;
+  }
+
+  .page section p,
+  .page section li {
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+    color: #5d5662 !important;
+  }
+
+  .page section ul {
+    padding-left: 20px !important;
+  }
+
+  .page section li {
+    margin-bottom: 6px !important;
+  }
+
+  .page section li::marker {
+    color: #e83e78;
+  }
+
+  /* Hộp lưu ý quan trọng */
+  .warningBox {
+    padding: 16px !important;
+    margin-bottom: 28px !important;
+    border: 1px solid #f4cddb;
+    border-radius: 18px;
+    background-color: #fdf1f5;
+  }
+
+  .warningBox h6 {
+    margin-bottom: 8px !important;
+    font-size: 15px !important;
+    color: #c92d64;
+  }
+
+  .warningBox p {
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+    color: #4a4350 !important;
+  }
+}
