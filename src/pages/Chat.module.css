@@ -58,6 +58,7 @@
   font-size: 14px;
   line-height: 1.8;
   overflow-wrap: anywhere;
+  white-space: pre-wrap;
 }
 
 /* Tin nhắn người dùng: bong bóng hồng nằm bên phải */
